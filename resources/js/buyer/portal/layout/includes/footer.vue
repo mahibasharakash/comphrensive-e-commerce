@@ -1,33 +1,35 @@
 <template>
 
-    <footer class="w-full flex justify-center items-center text-3xl font-bold px-5 py-3">
-        Marketo <span class="text-orange-700">.</span>
-    </footer>
-    <footer class="w-full bg-gray-100">
-        <div class="w-full mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div class="w-full px-5 py-3">
-                <div class="w-full text-xl text-gray-600"> Got Question? Call us 24/7 </div>
-                <div class="w-full text-sm font-bold"> +880 01400125289 </div>
-            </div>
-            <div class="w-full px-5 py-3">
-                <div class="w-full text-xl mb-3"> Quick Links </div>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Support Center </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Term & Conditions </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Shipping </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Privacy Policy </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Help </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Products Return </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> FAQS </a>
-            </div>
-            <div class="w-full px-5 py-3">
-                <div class="w-full text-xl mb-3"> Our Stores </div>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> New York </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> London SF </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Cockfosters BP </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Los Angeles </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Chicago </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Las Vegas </a>
-                <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Albarto </a>
+    <footer>
+        <div class="w-full flex justify-center items-center text-3xl font-bold px-5 py-3">
+            Marketo <span class="text-orange-700">.</span>
+        </div>
+        <div class="w-full">
+            <div class="w-full mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div class="w-full px-5 py-4 lg:py-8">
+                    <div class="w-full text-xl text-gray-600 mb-3"> Got Question? Call us 24/7 </div>
+                    <div class="w-full text-sm font-bold"> +880 01400125289 </div>
+                </div>
+                <div class="w-full px-5 py-4 lg:py-8">
+                    <div class="w-full text-xl mb-3"> Quick Links </div>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Support Center </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Term & Conditions </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Shipping </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Privacy Policy </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Help </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Products Return </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> FAQS </a>
+                </div>
+                <div class="w-full px-5 py-4 lg:py-8">
+                    <div class="w-full text-xl mb-3"> Our Stores </div>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> New York </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> London SF </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Cockfosters BP </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Los Angeles </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Chicago </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Las Vegas </a>
+                    <a href="javascript:void(0)" class="mb-3 block text-sm text-gray-500 duration-500 hover:text-orange-700"> Albarto </a>
+                </div>
             </div>
         </div>
     </footer>
