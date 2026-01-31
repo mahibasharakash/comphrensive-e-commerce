@@ -1,6 +1,6 @@
 <template>
 
-    <header class="w-full static bg-gray-100">
+    <header class="w-full sticky z-50 top-0 bg-gray-100 drop-shadow-lg">
         <main class="w-full mx-auto max-w-7xl px-5 py-3 lg:py-0 flex justify-between items-center">
             <aside class="w-full lg:w-auto flex justify-between items-center">
                 <a href="javascript:void(0)" class="decoration-0 inline-block font-semibold text-xl">
@@ -12,7 +12,7 @@
                     </svg>
                 </button>
             </aside>
-            <aside class="inline-block lg:flex justify-end items-center gap-2 fixed lg:static top-0 bottom-0 min-w-72 lg:min-w-auto max-w-72 lg:max-w-auto bg-white lg:bg-transparent z-50 p-5 duration-500 drop-shadow-lg lg:drop-shadow-none lg:duration-0" :class="{ 'end-0' : asideIsActive, '-end-72' : !asideIsActive }" @click.stop>
+            <aside class="inline-block lg:flex justify-end items-center gap-2 fixed lg:static top-0 bottom-0 h-screen lg:h-auto min-w-72 lg:min-w-auto max-w-72 lg:max-w-auto bg-white lg:bg-transparent z-50 p-5 duration-500 drop-shadow-lg lg:drop-shadow-none lg:duration-0" :class="{ 'end-0' : asideIsActive, '-end-72' : !asideIsActive }" @click.stop>
                 <div class="w-full flex lg:hidden justify-between items-center mb-3">
                     <div class="text-lg font-bold"> Menu </div>
                     <button type="button" class="min-w-8 max-w-8 min-h-8 max-h-8 p-1 inline-flex lg:hidden rounded-full justify-center items-center bg-gray-300 cursor-pointer" @click="closeAsideMenu">

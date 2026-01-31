@@ -1,12 +1,29 @@
 <template>
 
-    <section class="w-full">
-        <div class="mx-auto max-w-7xl px-5 bg-gray-100 grid grid-cols-1 md:grid-cols-2">
-            <div class="w-full block py-8">
-                <div class="min-h-72 w-full block">
-                    <div class="w-full mb-3 text-2xl text-orange-600"> Relogio Faminino </div>
-                    <div class="w-full mb-3 text-sm leading-6 max-w-80"> Titanium Grade 2 Folding clasp and safety push buttons with black carbide coating stocking the finest luxury watch brands, we specialise </div>
-                    <div class="w-full mb-3 text-2xl text-orange-600"> $1200 </div>
+    <section class="w-full py-8 px-5">
+        <div class="mx-auto max-w-7xl lg:px-5">
+            <div class="bg-gray-100 rounded-lg relative">
+                <div class="w-full block py-8 px-10 relative z-1">
+                    <div class="w-full flex flex-wrap">
+                        <div class="w-full lg:w-1/2">
+                            <div class="min-h-72 max-h-72 w-full flex items-center justify-start">
+                                <div>
+                                    <div class="w-full mb-3 text-2xl text-orange-600"> Relogio Faminino </div>
+                                    <div class="w-full mb-3 text-sm leading-6"> Titanium Grade 2 Folding clasp and safety push buttons with black carbide coating stocking the finest luxury watch brands, we specialise </div>
+                                    <div class="w-full mb-3 text-2xl text-orange-600"> $1200 </div>
+                                    <a href="javascript:void(0)" class="inline-block text-white bg-black duration-500 hover:bg-black/65 px-7 py-3 rounded-md">
+                                        View Collections
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 flex justify-center items-center min-h-72 max-h-72">
+                            <img :src="'/collection/image-6.png'" class="w-full object-contain bg-contain min-h-72 max-h-72" alt="collection-image" />
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute inset-0 flex justify-center text-6xl z-0 opacity-25 items-center w-full h-full font-bold">
+                    Marketio <span class="text-orange-600">.</span>
                 </div>
             </div>
         </div>
@@ -14,7 +31,7 @@
 
     <section class="w-full mx-auto max-w-7xl px-5 py-8">
         <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div class="w-full min-h-72 max-h-72 bg-gray-200 flex justify-center items-center flex-col px-10 rounded-lg">
+            <div class="w-full min-h-72 max-h-72 bg-gray-100 flex justify-center items-center flex-col px-10 rounded-lg">
                 <div class="w-full">
                     <div class="mb-3 w-full block text-orange-600"> From $500 </div>
                     <div class="mb-3 w-full block text-black text-3xl"> Watch For Him </div>
@@ -24,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full min-h-72 max-h-72 bg-gray-200 flex justify-center items-center flex-col px-10 rounded-lg">
+            <div class="w-full min-h-72 max-h-72 bg-gray-100 flex justify-center items-center flex-col px-10 rounded-lg">
                 <div class="w-full">
                     <div class="mb-3 w-full block text-orange-600"> From $500 </div>
                     <div class="mb-3 w-full block text-black text-3xl"> Watch For Her </div>
@@ -38,7 +55,7 @@
     </section>
 
     <section class="w-full mx-auto max-w-7xl px-5 py-8">
-        <div class="w-full text-center text-2xl py-5 font-bold"> Trending Now </div>
+        <div class="w-full text-center text-2xl pb-5 font-bold"> Trending Now </div>
         <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             <div class="w-full bg-transparent border border-gray-200 py-5 group relative">
                 <div class="absolute top-0 end-0 p-5 duration-500 opacity-0 group-hover:opacity-100">
@@ -103,7 +120,7 @@
         </div>
     </section>
 
-    <section class="w-full bg-gray-200">
+    <section class="w-full bg-gray-100">
         <div class="w-full mx-auto max-w-7xl">
             <div class="w-full grid grid-cols-1 md:grid-cols-2 items-center">
                 <div class="w-full">
@@ -123,11 +140,24 @@
     </section>
 
     <section class="w-full mx-auto max-w-7xl px-5 py-8">
-        <div class="w-full flex justify-end items-center py-5 gap-1.5">
-            <button type="button" class="cursor-pointer px-2.5 py-1.5 rounded-sm m-0 text-sm bg-transparent duration-500 focus-within:bg-orange-600 focus-within:text-white font-medium"> On Sell </button>
-            <button type="button" class="cursor-pointer px-2.5 py-1.5 rounded-sm m-0 text-sm bg-transparent duration-500 focus-within:bg-orange-600 focus-within:text-white font-medium"> Hot Sell </button>
-            <button type="button" class="cursor-pointer px-2.5 py-1.5 rounded-sm m-0 text-sm bg-transparent duration-500 focus-within:bg-orange-600 focus-within:text-white font-medium"> Trend </button>
-            <button type="button" class="cursor-pointer px-2.5 py-1.5 rounded-sm m-0 text-sm bg-transparent duration-500 focus-within:bg-orange-600 focus-within:text-white font-medium"> Best Sell </button>
+        <div class="w-full pb-5 flex justify-between items-center">
+            <div class="inline-block text-2xl font-bold">
+                Featured Product
+            </div>
+            <div class="inline-flex justify-end items-center gap-1.5">
+                <button type="button" class="cursor-pointer px-2.5 py-1.5 rounded-sm m-0 text-sm bg-transparent duration-500 hover:bg-orange-600 hover:text-white focus-within:bg-orange-600 focus-within:text-white font-medium">
+                    On Sell
+                </button>
+                <button type="button" class="cursor-pointer px-2.5 py-1.5 rounded-sm m-0 text-sm bg-transparent duration-500 hover:bg-orange-600 hover:text-white focus-within:bg-orange-600 focus-within:text-white font-medium">
+                    Hot Sell
+                </button>
+                <button type="button" class="cursor-pointer px-2.5 py-1.5 rounded-sm m-0 text-sm bg-transparent duration-500 hover:bg-orange-600 hover:text-white focus-within:bg-orange-600 focus-within:text-white font-medium">
+                    Trend
+                </button>
+                <button type="button" class="cursor-pointer px-2.5 py-1.5 rounded-sm m-0 text-sm bg-transparent duration-500 hover:bg-orange-600 hover:text-white focus-within:bg-orange-600 focus-within:text-white font-medium">
+                    Best Sell
+                </button>
+            </div>
         </div>
         <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             <div class="w-full bg-transparent border border-gray-200 py-5 group relative">
@@ -254,7 +284,7 @@
     </section>
 
     <section class="w-full mx-auto max-w-7xl px-5 py-8">
-        <div class="w-full text-center text-2xl py-5 font-bold"> Most Viewed </div>
+        <div class="w-full text-center py-5 text-2xl font-bold"> Most Viewed </div>
         <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             <div class="w-full bg-transparent border border-gray-200 py-5 group relative">
                 <div class="absolute top-0 end-0 p-5 duration-500 opacity-0 group-hover:opacity-100">
